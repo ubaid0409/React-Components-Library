@@ -9,11 +9,11 @@
 
 
 ```
- git clone &lt;https://github.com/ubaid0409/React-Components-Library.git>
+ git clone https://github.com/ubaid0409/React-Components-Library.git
+
+
+ cd PRODUCT-DASHBOARD
 ```
-
-### cd &lt;PRODUCT-DASHBOARD>
-
 
 ---
 
