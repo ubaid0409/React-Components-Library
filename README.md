@@ -1,17 +1,16 @@
 ### __React Product Dashboard App – Setup & Explanation__
 
 
-### This guide explains how to set up a React application using Vite, configure Tailwind CSS, clone the project from GitHub, and understand the complete structure and flow of the Product Dashboard application.
+ This guide explains how to set up a React application using Vite, configure Tailwind CSS, clone the project from GitHub, and understand the complete structure and flow of the Product Dashboard application.
 
 
 ### __1. Clone GitHub Repository__
 
 
-### bash
 
-
-### git clone &lt;https://github.com/ubaid0409/React-Components-Library.git>
-
+```
+ git clone &lt;https://github.com/ubaid0409/React-Components-Library.git>
+```
 
 ### cd &lt;PRODUCT-DASHBOARD>
 
