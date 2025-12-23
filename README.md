@@ -10,8 +10,6 @@
 
 ```
  git clone https://github.com/ubaid0409/React-Components-Library.git
-
-
  cd PRODUCT-DASHBOARD
 ```
 
@@ -36,9 +34,6 @@ Install project dependencies:
 
 ```
 npm install
-
-
----
 ```
 
 
@@ -50,14 +45,13 @@ Start the Vite development server:
 
 ```
 npm run dev
-
 ```
 
 
 
-* This will start the React app using Vite. \
+* This will start the React app using Vite. 
 
-* Open the URL shown in the terminal (usually `http://localhost:5173`) in your browser. \
+* Open the URL shown in the terminal (usually `http://localhost:5173`) in your browser. 
 
 
 
@@ -78,10 +72,9 @@ Select:
 
 
 
-* Framework: __React \
-__
-* Variant: __JavaScript \
-__
+* Framework: React 
+* Variant: JavaScript 
+
 
 Then run:
 
@@ -90,9 +83,6 @@ Then run:
 cd product-dashboard
 npm install
 npm run dev
-
-
----
 ```
 
 
@@ -106,9 +96,6 @@ npm run dev
 ```
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-
-
----
 ```
 
 
@@ -118,9 +105,6 @@ npx tailwindcss init -p
 
 ```
 content: ["./index.html", "./src/**/*.{js,jsx}"],
-
-
----
 ```
 
 
@@ -132,9 +116,6 @@ content: ["./index.html", "./src/**/*.{js,jsx}"],
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
----
 ```
 
 
@@ -150,9 +131,6 @@ src/
  │   └── Modal.jsx
  └── pages/
      └── Dashboard.jsx
-
-
----
 ```
 
 
@@ -163,11 +141,11 @@ The Product Dashboard allows users to:
 
 
 
-* Add a product using a modal \
+* Add a product using a modal 
 
-* View products in card format \
+* View products in card format
 
-* Delete products from the list \
+* Delete products from the list
 
 
 The application follows a __component-based architecture__ where logic is handled in the parent component and UI is handled by reusable child components.
@@ -185,13 +163,13 @@ This is the __parent component__ of the application.
 
 
 
-* Manages application state \
+* Manages application state 
 
-* Controls modal open and close \
+* Controls modal open and close 
 
-* Adds and deletes products \
+* Adds and deletes products 
 
-* Passes data to child components using props \
+* Passes data to child components using props 
 
 
 
@@ -199,13 +177,13 @@ This is the __parent component__ of the application.
 
 
 
-* `products` – Stores product list \
+* `products` – Stores product list 
 
-* `isOpen` – Controls modal visibility \
+* `isOpen` – Controls modal visibility 
 
-* `name` – Product name input \
+* `name` – Product name input 
 
-* `price` – Product price input \
+* `price` – Product price input 
 
 
 The modal opens when `isOpen` is `true` and closes when `isOpen` is `false`.
@@ -223,12 +201,11 @@ A reusable button component used throughout the application.
 
 
 
-* `children` – Button text \
+* `children` – Button text 
 
-* `variant` – Button style (primary, danger, secondary) \
+* `variant` – Button style (primary, danger, secondary) 
 
-* `onClick` – Function executed on click \
-
+* `onClick` – Function executed on click 
 
 This allows consistent button styling across the app.
 
@@ -245,14 +222,13 @@ Used to display product details in a card layout.
 
 
 
-* `title` – Product name \
+* `title` – Product name 
 
-* `price` – Product price \
+* `price` – Product price 
 
-* `children` – Product description \
+* `children` – Product description 
 
-* `footer` – Action button (Delete) \
-
+* `footer` – Action button (Delete) 
 
 This component focuses only on UI rendering.
 
@@ -269,9 +245,9 @@ Handles the modal popup behavior.
 
 
 
-* Renders only when `isOpen` is `true \
+* Renders only when `isOpen` is `true 
 `
-* Returns `null` when `isOpen` is `false \
+* Returns `null` when `isOpen` is `false 
 `
 
 
@@ -279,13 +255,13 @@ Handles the modal popup behavior.
 
 
 
-* `isOpen` – Controls modal visibility \
+* `isOpen` – Controls modal visibility 
 
-* `onClose` – Function to close modal \
+* `onClose` – Function to close modal 
 
-* `title` – Modal heading \
+* `title` – Modal heading 
 
-* `children` – Modal content (form inputs) \
+* `children` – Modal content (form inputs) 
 
 
 The modal is fully controlled by `Dashboard.jsx`.
@@ -298,21 +274,20 @@ The modal is fully controlled by `Dashboard.jsx`.
 
 
 
-1. User clicks __Add Product \
-__
-2. Modal opens \
+1. User clicks __Add Product 
 
-3. User enters product name and price \
+2. Modal opens 
 
-4. User clicks __Save \
-__
-5. Product is added to state \
+3. User enters product name and price 
 
-6. Modal closes \
+4. User clicks __Save 
+5. Product is added to state 
 
-7. Product appears as a card \
+6. Modal closes 
 
-8. User deletes product if needed \
+7. Product appears as a card 
+
+8. User deletes product if needed 
 
 
 
@@ -323,19 +298,19 @@ __
 
 
 
-* React `useState \
+* React `useState 
 `
-* Props and children \
+* Props and children 
 
-* Conditional rendering \
+* Conditional rendering 
 
-* Reusable components \
+* Reusable components 
 
-* Component-based architecture \
+* Component-based architecture 
 
-* Vite + React setup \
+* Vite + React setup 
 
-* Tailwind CSS integration \
+* Tailwind CSS integration 
 
 
 
